@@ -1,4 +1,5 @@
 import Head from "next/head";
+import EnterAnimation from "../components/EnterAnimation";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -9,7 +10,11 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main></main>
+			<EnterAnimation />
+
+			<main>
+				<h1>Quick Node</h1>
+			</main>
 		</div>
 	);
 }
